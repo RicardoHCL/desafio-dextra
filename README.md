@@ -2,7 +2,7 @@
 
 Api desenvolvida em Java 11 e com Spring Boot 2.4.5
 
-## Iniciando a Api Localmente
+## Iniciando a Api sem Docker
 
 1. Importar o projeto no eclipse ou intelli j;
 2. Configurar o arquivo `src/main/resources/application.properties` com as informações de conexão de um banco de dados `PostgreSQL`;
