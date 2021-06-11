@@ -15,7 +15,7 @@ Api desenvolvida em Java 11 e com Spring Boot 2.4.5
 
 ## Usando a Api
 
-`base url local: http://loclhost:8080` </br>
+`base url local: http://localhost:8080` </br>
 `base url heroku: https://dextra-challenge.herokuapp.com`
 
 1. Via postman:
@@ -23,7 +23,7 @@ Api desenvolvida em Java 11 e com Spring Boot 2.4.5
 
     CRIAR PERSONAGEM:
 ```
-    url: http://loclhost:8080/api/characters  
+    url: http://localhost:8080/api/characters  
     metodo: POST 
     body (Json):  
                   { 
@@ -49,7 +49,7 @@ Api desenvolvida em Java 11 e com Spring Boot 2.4.5
     CONSULTAR PERSONAGEM: 
 
   ```  
-    url: http://loclhost:8080/api/characters/1 
+    url: http://localhost:8080/api/characters/1 
     metodo: GET
 
     Exemplo de Response: 
@@ -67,7 +67,7 @@ Api desenvolvida em Java 11 e com Spring Boot 2.4.5
     ATUALIZAR PERSONAGEM:
 
 ```
-    url: http://loclhost:8080/api/characters/1 
+    url:http://localhost:8080/api/characters/1 
     metodo: PUT 
     body (Json): 
                   {
@@ -92,7 +92,7 @@ Api desenvolvida em Java 11 e com Spring Boot 2.4.5
     DELETAR PERSONAGEM:
     
 ```
-    url: http://loclhost:8080/api/characters/1 
+    url: http://localhost:8080/api/characters/1 
     metodo: DELETE
 
     Exemplo de Response:
@@ -105,7 +105,7 @@ Api desenvolvida em Java 11 e com Spring Boot 2.4.5
     CONSULTAR TODOS PERSONAGENS:
 
  ```   
-    url: http://loclhost:8080/api/characters 
+    url: http://localhost:8080/api/characters 
     metodo: GET
 
     Exemplo de Response:
@@ -133,7 +133,7 @@ Api desenvolvida em Java 11 e com Spring Boot 2.4.5
     CONSULTAR PERSONAGENS POR CASA:
 
 ```    
-    url: http://loclhost:8080/api/characters?house=1760529f-6d51-4cb1-bcb1-25087fce5bde 
+    url: http://localhost:8080/api/characters?house=1760529f-6d51-4cb1-bcb1-25087fce5bde 
     metodo: GET
 
     Exemplo de Response:
